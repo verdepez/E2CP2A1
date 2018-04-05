@@ -18,7 +18,8 @@ header {
      }
 img {     
     max-width: 200px;
-    float: left;
+    margin-bottom: -4px;
+
 }
 nav {
     float: right;
@@ -66,18 +67,28 @@ p {
  h2 {
     font-size: 15px;
       }
-section p {  }
-section img {  }
-section {  }
-h2 {  }
-p {  }
-button {  }
-div {  }
-div h3 {  }
-div p {  }
-div p strong {  }
-div a {  }
-div input {  }
-div input button {  }
-footer {  }
-footer h4 {  }
+.contenido p{
+font-size: 11px;
+line-height: 18px;
+
+}
+.bac-gris{
+    background-color: #f7f7f7;
+    padding: 20px 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+}
+.bac-gris a{
+      background-color: #13657d;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #046e8e;
+    text-decoration: none;
+    color: #fff;
+}
+.formularios{
+max-width: 950px;
+}
+.formularios div{
+  max-width: 300px;
+}
