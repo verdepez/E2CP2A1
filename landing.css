@@ -1,16 +1,14 @@
 body{    
-    font-family: sans-serif;
-  
+    font-family: sans-serif; 
     margin: 0;
 }
 .container-head{
   width: 100%;
   background-image: url(images/bg.jpg);
-    padding: 1px;
-    background-size: 100%;
-    color: #fff;  
-    background-position: 0;
-
+  padding: 1px;
+  background-size: 100%;
+  color: #fff;  
+  background-position: 0;
 }
 header { 
   max-width: 950px;
@@ -20,7 +18,6 @@ header {
 img {     
     max-width: 200px;
     margin-bottom: -4px;
-
 }
 nav {
     float: right;
@@ -31,7 +28,8 @@ nav ul {
     float: right; 
   }
 nav ul li { 
-padding-left: 10px; }
+padding-left: 10px;
+ }
 h1 { 
     max-width: 500px;
     text-align: center;
@@ -42,7 +40,6 @@ h1 {
 .header-enlace{
       text-align: center;
 }
-
 .header-enlace a{
     color: #fff;
     background-color: #0cb1e2;
@@ -59,7 +56,7 @@ p {
     text-align: center;
     max-width: 550px;
     margin: 10px auto;
-     }
+}
 .contenido{
   max-width: 950px;
   margin: 0 auto;
@@ -71,7 +68,6 @@ p {
 .contenido p{
 font-size: 11px;
 line-height: 18px;
-
 }
 .bac-gris{
     background-color: #f7f7f7;
@@ -81,7 +77,7 @@ line-height: 18px;
     text-align: center;
 }
 .bac-gris section a{
-    background-color: #13657d;
+    background-color: #198daf;
     padding: 10px;
     border-radius: 4px;
     border: 1px solid #046e8e;
@@ -92,8 +88,42 @@ line-height: 18px;
     margin: 0 auto;
 }
 .formularios{
-max-width: 950px;
+max-width: 531px;
+margin: 0 auto;
 }
-.formularios div{
-  max-width: 300px;
+.formularios section{
+  min-width: 236px;
+  float: left;
+     margin-bottom: 25px;
 }
+.formularios section p{
+    text-align: left;
+    line-height: 4px;
+}
+.formularios section a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #198daf;
+}
+.formularios section strong{    
+  font-weight: 800;
+}
+form button,
+form input{
+    background: transparent;
+    border: 1px solid #333;
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 6px;
+}
+footer{
+  background-color: #333;
+  padding: 6px;
+  text-align: center;
+}
+footer aside{
+  max-width: 536px;
+}
+footer h4{    font-size: 12px;
+    font-weight: normal;
+  color: #e6e6e6;}
